@@ -10,8 +10,8 @@ import static org.junit.jupiter.api.Assertions.*;
         void findMaxNew() {
             StatisticsService service = new StatisticsService();
 
-            long[] incomesInBillions = {12, 5, 8, 4, 5, 13, 8, 6, 11, 11, 12};
-            long expected = 13;
+            long[] incomesInBillions = {12, 5, 18, 4, 5, 3, 8, 6, 11, 11, 12};
+            long expected = 18;
 
             long actual = service.findMax(incomesInBillions);
 
